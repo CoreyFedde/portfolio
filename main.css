@@ -45,13 +45,26 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.cover {
-  height: 700px;
-  margin-bottom: 60px;
-  background-color: #777;
+.cover-col{
+  height: 400px;
+  position: relative;
 }
 
+/* Carousel base class */
+.cover {
+  height: 400px;
+  margin-bottom: 60px;
+  background-color: #00406e;
+}
+
+.name {
+  font-size: 150px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 
 /* About
 ---------------------------*/
