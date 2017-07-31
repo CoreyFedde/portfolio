@@ -42,7 +42,7 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
+/* Cover
 -------------------------------------------------- */
 
 .cover-col{
@@ -59,7 +59,7 @@ body {
 
 .name {
   font-size: 150px;
-  color: white;
+  color: #EBEDEE;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -87,6 +87,10 @@ body {
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.marketing {
+  background-color: #EBEDEE;
 }
 
 
