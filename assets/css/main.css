@@ -52,6 +52,13 @@
 .selfie {
   border-radius: 50px;
 }
+.custom-background {
+  /*background-color: white;*/
+}
+i {
+  font-size: 150px;
+  background-color: white;
+}
 
 /* Box Model */
 
@@ -1466,9 +1473,9 @@
 	}
 
 /* Image */
-#images {
+/*#images {
 background-position: center;
-}
+}*/
 
 	.image {
 		display: inline-block;
