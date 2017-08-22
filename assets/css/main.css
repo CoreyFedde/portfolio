@@ -1348,26 +1348,14 @@ i {
 
 	html {
 		background-color: 	rgba(93, 188, 210, .9);
-		/*background-image: url("https://static.pexels.com/photos/386148/pexels-photo-386148.jpeg");*/
-    background-image: url("https://cdn.pixabay.com/photo/2016/12/20/22/53/boston-1921731_1280.jpg");
+		background-image: url("https://static.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg");
+    /*background-image: url("https://cdn.pixabay.com/photo/2016/12/20/22/53/boston-1921731_1280.jpg");*/
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: cover;
 		background-attachment: fixed;
 	}
-  html::after {
-      content: "";
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      position: fixed;
-      z-index: -1;
-  		background-color: rgba(0, 0, 0, .4);
-  		/*background: #35b88f url("https://static.pexels.com/photos/311039/pexels-photo-311039.jpeg") bottom center no-repeat;*/
-  		padding: 5em 7em;
-  		background-size: 125% auto;
-  }
+
 
 
 	body {
@@ -2084,7 +2072,7 @@ background-position: center;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background-color: rgba(93, 188, 210, .9);
+		background-color: rgba(53, 86, 103, .8);
 		/*background: #35b88f url("https://static.pexels.com/photos/311039/pexels-photo-311039.jpeg") bottom center no-repeat;*/
 		padding: 5em 7em;
 		background-size: 125% auto;
