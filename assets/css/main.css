@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("font-awesome.min.css");
 
-/*
-	Overflow by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -49,6 +43,36 @@
 	}
 
 /* Additions */
+
+.horizontal {
+  margin-top: 2%;
+}
+/*.horizontal li {
+  display: inline;
+  background-color: black;
+  /*border-radius: 25px;*/
+  /*padding: 1em;*/
+
+}*/
+
+.catch{
+  margin: 0, 0, 10em, 0;
+}
+
+.skillbox {
+  background-color: rgba(0, 0, 0, .7)
+}
+
+.skills {
+		position: relative;
+		color: #fff;
+		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		text-align: center;
+		/*background: #35b88f url("images/banner.svg") bottom center no-repeat;*/
+		padding: 2em 5em 0em 5em;;
+		margin: 0;
+		background-size: 125% auto;
+}
 .selfie {
   border-radius: 50px;
 }
@@ -56,10 +80,11 @@
   /*background-color: white;*/
 }
 i {
-  font-size: 150px;
-  background-color: white;
+  font-size: 50px;
 }
-
+.email {
+  border-bottom: thin solid black;
+}
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1321,27 +1346,36 @@ i {
 
 /* Basic */
 
+	html {
+		background-color: 	#A1C4BF;
+		background-image: url("https://static.pexels.com/photos/386148/pexels-photo-386148.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: cover;
+		background-attachment: fixed;
+	}
+
 	body {
-		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		background-position: top left, center 0;
-		background-attachment: fixed, fixed;
+		/*background-color: black;
+		background-image: url("https://static.pexels.com/photos/386148/pexels-photo-386148.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: cover;
+		background-attachment: fixed;*/
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
 		color: #3a3939;
-		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
-		-webkit-text-stroke: 0.25px;
+		/*text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);*/
+		/*-webkit-text-stroke: 0.25px;*/
 	}
 
-		body.is-scroll {
+		/*body.is-scroll {
 			background-attachment: scroll, scroll;
 			background-size: auto, 100% auto;
-		}
+		}*/
 
 		body.is-loading * {
 			-moz-transition: none !important;
@@ -2012,13 +2046,31 @@ background-position: center;
 /* Banner */
 
 	#banner {
+    margin-left: auto;
+    margin-right: auto;
 		position: relative;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
-		padding: 5em 0 5em 0;
-		margin: 0;
+		/*background-color: rgba(0, 0, 0, .7);
+		background: #35b88f url("https://static.pexels.com/photos/268883/pexels-photo-268883.jpeg") bottom center no-repeat;*/
+		padding: 5em 7em;
+		background-size: 125% auto;
+	}
+  #banner::after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+		color: #fff;
+		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+		text-align: center;
+		background-color: rgba(69, 90, 100, 1);
+		/*background: #35b88f url("https://static.pexels.com/photos/311039/pexels-photo-311039.jpeg") bottom center no-repeat;*/
+		padding: 5em 7em;
 		background-size: 125% auto;
 	}
 
@@ -2266,12 +2318,12 @@ background-position: center;
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
-				background-repeat: repeat, no-repeat;
-				background-size: auto, 100% auto;
-				background-position: top left, top center;
-				background-attachment: scroll, scroll;
+				/*background-color: #203936;
+				background-image: url("https://static.pexels.com/photos/386148/pexels-photo-386148.jpeg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: cover;
+				background-attachment: fixed;*/
 				font-size: 14pt;
 			}
 
