@@ -1,3 +1,18 @@
+$(() => {
+  $('.hidden-text').hide()
+  $('#feature1').on('click', function () {
+    $('#hiddenText1').toggle()
+    $('#disappearingText1').toggle()
+  })
+  $('#feature2').on('click', function () {
+    $('#hiddenText2').toggle()
+    $('#disappearingText2').toggle()
+  })
+  $('#feature3').on('click', function () {
+    $('#hiddenText3').toggle()
+    $('#disappearingText3').toggle()
+  })
+})
 
 (function($) {
 
