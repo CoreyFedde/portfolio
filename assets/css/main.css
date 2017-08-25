@@ -2616,7 +2616,7 @@ background-position: center;
 			}
 
 	}
-  .hover-option .hidden-text {
+  /*.hover-option .hidden-text {
     position: relative;
     display: none;
     color: black;
@@ -2630,4 +2630,4 @@ background-position: center;
   }
   .hover-option:hover .disappearing {
     display: none;
-  }
+  }*/
