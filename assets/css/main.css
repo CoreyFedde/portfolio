@@ -44,6 +44,8 @@
 
 /* Additions */
 
+
+
 .horizontal {
   margin-top: 2%;
 }
@@ -55,8 +57,8 @@
 
 }*/
 
-.catch{
-  margin: 0, 0, 10em, 0;
+#catch {
+  margin: 0, 50%;
 }
 
 .skillbox {
@@ -2614,3 +2616,18 @@ background-position: center;
 			}
 
 	}
+  .hover-option .hidden-text {
+    position: relative;
+    display: none;
+    color: black;
+    // font-size: 20px;
+  }
+
+  .hover-option:hover {
+  }
+  .hover-option:hover .hidden-text {
+    display:inline-block;
+  }
+  .hover-option:hover .disappearing {
+    display: none;
+  }
