@@ -12,6 +12,10 @@ $(() => {
     $('#hiddenText3').toggle()
     $('#disappearingText3').toggle()
   })
+  $('#feature4').on('click', function () {
+    $('#hiddenText4').toggle()
+    $('#disappearingText4').toggle()
+  })
 })
 
 (function($) {
